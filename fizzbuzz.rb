@@ -2,15 +2,16 @@
 # See README.md for instructions on how to do this
 
 
+require 'rspec'
 
-def fizzbuzz(i)
-  if i % 3 and i % 5 == 0
+def fizzBuzz(number)
+  if number % 3 == 0 && number % 5 == 0
     "FizzBuzz"
-  elsif i % 5 == 0 
-    "Buzz"
-  elsif i % 3 == 0 
+  elsif number % 3 == 0
     "Fizz"
-  else 
-    nil 
+  elsif number % 5 == 0
+    "Buzz"
+  else
+    number
   end
 end
