@@ -5,7 +5,7 @@ def fizzbuzz(i)
   if i % 3 and i % 5 == 0
     "Buzz"
   elsif i % 5 == 0 
-    "Buzz"
+    "fizzbuzz"
   elsif i % 3 == 0 
     "Fizz"
   else 
